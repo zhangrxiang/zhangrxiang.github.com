@@ -212,7 +212,6 @@ window.$docsify = {
 
 - Type: `Function`
 
-See [Markdown configuration](markdown.md).
 
 ```js
 window.$docsify = {
@@ -280,7 +279,7 @@ window.$docsify = {
 
 - type: `Boolean`
 
-Execute the script on the page. Only parse the first script tag([demo](themes)).  If Vue is present, it is turned on by default.
+Execute the script on the page. Only parse the first script tag.  If Vue is present, it is turned on by default.
 
 ```js
 window.$docsify = {
