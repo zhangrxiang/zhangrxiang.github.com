@@ -11,14 +11,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./lib/themes/vue.css">
 </head>
-
+<style>
+    .cover-main img{
+        width: 30%;
+    }
+</style>
 <body>
 <div id="app"></div>
 <script>
     window.$docsify = {
         name: 'my-dev-blog',
         repo: 'https://github.com/zhangrxiang/dev-blog',
-        coverpage: 'cover',
+        coverpage: 'cover.md',
         auto2top: true,
         executeScript: true,
         loadSidebar: "sidebar",

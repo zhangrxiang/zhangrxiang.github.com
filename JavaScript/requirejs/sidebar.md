@@ -6,4 +6,7 @@
 - C
     - [c](c/c.md)
 
+- JavaScript
+    - [requirejs](JavaScript/requirejs/requirejs.md)
+
 - [Guide](guide.md)

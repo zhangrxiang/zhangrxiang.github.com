@@ -1,5 +1,0 @@
-- Translations
-  - [:cn: 中文](/)
-- Other Links
- - [gitee](https://zhangrxiang.gitee.io)
- - [coding](https:zhangrxiang.coding.me)

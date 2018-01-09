@@ -4,4 +4,4 @@
 
 
  [GitHub](https://github.com/zhangrxiang/dev-blog)
- [Get Started](#index)
+ [Get Started](index)

@@ -295,7 +295,7 @@ window.$docsify = {
 </script>
 ```
 
-Note that if you are running an external script, e.g. an embedded jsfiddle demo, make sure to include the [external-script](plugins.md?id=external-script) plugin.
+Note that if you are running an external script, e.g. an embedded jsfiddle demo, make sure to include the external-script plugin.
 
 ## no-emoji
 
