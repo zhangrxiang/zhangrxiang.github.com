@@ -7,6 +7,8 @@
     - [c](c/c.md)
 
 - JavaScript
-    - [requirejs](JavaScript/requirejs/requirejs.md)
+    - [requirejs](JavaScript/requirejs/requirejs.md)       
+    - [md](JavaScript/md.md)
+
 
 - [Guide](guide.md)

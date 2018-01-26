@@ -8,5 +8,6 @@
 
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)
+    - [md](JavaScript/md.md)
 
 - [Guide](guide.md)
