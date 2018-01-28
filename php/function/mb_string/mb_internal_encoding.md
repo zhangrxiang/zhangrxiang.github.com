@@ -13,14 +13,14 @@ mixed mb_internal_encoding ([ string $encoding = mb_internal_encoding() ] )
 
 ## Parameters
 ### encoding
-encoding is the character encoding name used for the HTTP input character encoding conversion, HTTP output character encoding conversion, and the default character encoding for string functions defined by the mbstring module. You should notice that the internal encoding is totally different from the one for multibyte regex.
+- encoding is the character encoding name used for the HTTP input character encoding conversion, HTTP output character encoding conversion, and the default character encoding for string functions defined by the mbstring module. You should notice that the internal encoding is totally different from the one for multibyte regex.
 
-字符编码用于HTTP输入，输出字符编码转换，默认的字符编码由mbstring模块字符串函数定义的。你应该注意到内部编码完全不同于多字节的正则表达式。
+- 字符编码用于HTTP输入，输出字符编码转换，默认的字符编码由mbstring模块字符串函数定义的。你应该注意到内部编码完全不同于多字节的正则表达式。
 
 ## Return Values
-If encoding is set, then Returns TRUE on success or FALSE on failure. In this case, the character encoding for multibyte regex is NOT changed. If encoding is omitted, then the current character encoding name is returned.
+- If encoding is set, then Returns TRUE on success or FALSE on failure. In this case, the character encoding for multibyte regex is NOT changed. If encoding is omitted, then the current character encoding name is returned.
 
-如果设置了编码，则成功返回TRUE或失败时返回FALSE。在这种情况下，对多字节字符编码不改变正则表达式。如果省略编码，则返回当前字符编码名称。
+- 如果设置了编码，则成功返回TRUE或失败时返回FALSE。在这种情况下，对多字节字符编码不改变正则表达式。如果省略编码，则返回当前字符编码名称。
 
 ## Examples
 
