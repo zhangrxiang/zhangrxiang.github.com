@@ -1,13 +1,14 @@
 <!-- docs/_sidebar.md -->
 
 - [Home](/)
-
 - [Index](index.md)
 
 - Linux
     - [linux](linux/linux.md)
 - C
     - [c](c/c.md)
+        - [thread](c/thread/.md)
+            - [summary](c/thread/summary.md)
 
 - PHP
     - [function](php/function)
