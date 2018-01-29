@@ -10,7 +10,6 @@ listDir () {
             if [[ -d $i && $i != "lib" ]];then
                 listDir $i               
             fi
-            rm -f cr 
         done
         if [[ -f $md ]];then
             thisMd5=`md5sum $md`
