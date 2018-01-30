@@ -18,6 +18,7 @@
             - [mb_convert_case](php/function/mb_string/mb_convert_case.md)
             - [mb_convert_encoding](php/function/mb_string/mb_convert_encoding.md)
             - [mb_convert_variables](php/function/mb_string/mb_convert_variables.md)
+            - [mb_substr](php/function/mb_string/mb_substr.md)
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)       
     - [md](JavaScript/md.md)

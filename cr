@@ -1,5 +1,7 @@
 #!/bin/bash
 path='/home/vagrant/workspace/webProjects/dev-blog'
+    #   /home/vagrant/workspace/webProjects/dev-blog
+# path='/Users/zhangrongxiang/WorkSpace/webProjects/dev-blog'
 md=$1
 real=`realpath  $1`
 md5=`md5sum $md`

@@ -60,3 +60,5 @@ if ( $inputenc ) {
 }
 
 ```
+## 文章参考
+- <http://php.net/manual/en/function.mb-convert-variables.php>
