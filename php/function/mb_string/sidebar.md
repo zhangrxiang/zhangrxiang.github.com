@@ -9,6 +9,7 @@
     - [c](c/c.md)
         - [thread](c/thread/.md)
             - [summary](c/thread/summary.md)
+        - [ctype](c/ctype/index.md)    
 
 - PHP
     - [function](php/function)
