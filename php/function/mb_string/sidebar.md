@@ -24,6 +24,7 @@
             - [mb_substr_count](php/function/mb_string/mb_substr_count.md)
 - wiki
     - [cookies](wiki/cookies.md)            
+    - [session](wiki/session.md)            
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)       
     - [md](JavaScript/md.md)
