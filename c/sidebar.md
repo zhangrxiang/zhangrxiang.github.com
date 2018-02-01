@@ -11,6 +11,8 @@
             - [summary](c/thread/summary.md)
         - [ctype](c/ctype/index.md)    
         - [isalnum](c/ctype/isalnum.md)    
+        - [isalpha](c/ctype/isalpha.md)    
+        - [iscntrl](c/ctype/iscntrl.md)    
 
 - PHP
     - [function](php/function)

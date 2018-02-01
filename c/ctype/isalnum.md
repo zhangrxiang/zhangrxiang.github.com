@@ -1,21 +1,25 @@
 # isalnum
 
+```c
+int isalnum ( int c );
+```
 > - Checks whether c is either a decimal digit or an uppercase or lowercase letter.
 > - 检查给定的字符是否为当前 C 本地环境所分类的字母数字字符。在默认本地环境中，下列字符为字母数字：
     - 数字（ 0123456789 ）
     - 大写字母（ ABCDEFGHIJKLMNOPQRSTUVWXYZ ）
     - 小写字母（ abcdefghijklmnopqrstuvwxyz ）
-若 ch 的值不能表示为 unsigned char 且不等于 EOF ，则行为未定义。
+若 c 的值不能表示为 unsigned char 且不等于 EOF ，则行为未定义。
 
-## 参数
+## Parameters
+### c
 - Character to be checked, casted as an int, or EOF.
-- ch	-	要分类的字符
+- c	-	要分类的字符
 
-## 返回值
+## Return Value
 - A value different from zero (i.e., true) if indeed c is either a digit or a letter. Zero (i.e., false) otherwise.
 - 若字符为字母数字字符，则为非零，否则为 0 。
 
-
+## Example
 ```c
 //
 // Created by zhangrongxiang on 2018/1/31 13:33
