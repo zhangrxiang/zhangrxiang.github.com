@@ -27,6 +27,7 @@
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
+    - [socket](wiki/socket.md)            
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)       
     - [md](JavaScript/md.md)
