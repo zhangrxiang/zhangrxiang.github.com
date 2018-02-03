@@ -28,6 +28,8 @@
             - [mb_substr](php/function/mb_string/mb_substr.md)
             - [mb_substr_count](php/function/mb_string/mb_substr_count.md)
             - [mb_strstr](php/function/mb_string/mb_strstr.md)
+            - [mb_strpos](php/function/mb_string/mb_strpos.md)
+            - [mb_stripos](php/function/mb_string/mb_stripos.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
