@@ -13,9 +13,10 @@
             - [isalnum](c/ctype/isalnum.md)    
             - [isalpha](c/ctype/isalpha.md)    
             - [iscntrl](c/ctype/iscntrl.md)    
-        - [string](c/string)
+        - [string](c/string/index.md)
             - [strncpy](c/string/strncpy.md)
             - [strcpy](c/string/strcpy.md)
+            - [strcat](c/string/strcat.md)
 
 - PHP
     - [function](php/function)
