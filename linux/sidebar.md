@@ -31,6 +31,7 @@
             - [mb_strstr](php/function/mb_string/mb_strstr.md)
             - [mb_strpos](php/function/mb_string/mb_strpos.md)
             - [mb_stripos](php/function/mb_string/mb_stripos.md)
+            - [mb_strrpos](php/function/mb_string/mb_strrpos.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
