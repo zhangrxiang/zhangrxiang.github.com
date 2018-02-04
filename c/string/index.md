@@ -79,3 +79,7 @@ char *strtok(char *str, const char *delim)
 size_t strxfrm(char *dest, const char *src, size_t n)
 //根据程序当前的区域选项中的 LC_COLLATE 来转换字符串 src 的前 n 个字符，并把它们放置在字符串 dest 中。
 ```
+
+## 文章参考
+- <http://www.runoob.com/cprogramming/c-standard-library-string-h.html>
+- <http://www.cplusplus.com/reference/cstring/>
