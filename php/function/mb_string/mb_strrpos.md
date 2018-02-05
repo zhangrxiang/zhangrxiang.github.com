@@ -75,3 +75,6 @@ if ( ( $position = mb_strrpos( $str, "/" ) ) !== false ) {
 	echo mb_substr( $str, $position + 1 ) . PHP_EOL;
 }
 ```
+
+## 文章参考
+- <http://php.net/manual/en/function.mb-strrpos.php>

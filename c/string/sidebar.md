@@ -17,6 +17,8 @@
             - [strncpy](c/string/strncpy.md)
             - [strcpy](c/string/strcpy.md)
             - [strcat](c/string/strcat.md)
+            - [strstr](c/string/strstr.md)
+            - [strspn](c/string/strspn.md)
 
 - PHP
     - [function](php/function)
