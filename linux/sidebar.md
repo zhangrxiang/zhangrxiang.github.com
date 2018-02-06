@@ -18,6 +18,8 @@
             - [strcpy](c/string/strcpy.md)
             - [strcat](c/string/strcat.md)
             - [strstr](c/string/strstr.md)
+            - [strrchr](c/string/strrchr.md)
+            - [strpbrk](c/string/strpbrk.md)
 
 - PHP
     - [function](php/function)
