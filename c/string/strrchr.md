@@ -9,6 +9,7 @@
 ```c
 char *strrchr( const char *str, int ch );
 ```
+
 ## Parameters
 ### str
 - C string.

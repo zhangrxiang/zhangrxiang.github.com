@@ -20,6 +20,7 @@
             - [strstr](c/string/strstr.md)
             - [strrchr](c/string/strrchr.md)
             - [strpbrk](c/string/strpbrk.md)
+            - [strlen](c/string/strlen.md)
 
 - PHP
     - [function](php/function)
