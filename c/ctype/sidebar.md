@@ -21,6 +21,7 @@
             - [strrchr](c/string/strrchr.md)
             - [strpbrk](c/string/strpbrk.md)
             - [strlen](c/string/strlen.md)
+            - [memchr](c/string/memchr.md)
 
 - PHP
     - [function](php/function)
