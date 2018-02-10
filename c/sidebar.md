@@ -23,6 +23,7 @@
             - [strlen](c/string/strlen.md)
             - [memchr](c/string/memchr.md)
             - [memcmp](c/string/memcmp.md)
+            - [memcpy](c/string/memcpy.md)
 
 - PHP
     - [function](php/function)
