@@ -80,6 +80,8 @@ int main() {
 
     cmp = memcmp(&stu, &stu2, sizeof(Stu));
     printf("struct %d \n", cmp);//0
+    cmp = memcmp(&stu, &stu3, sizeof(Stu));
+    //printf("struct %d \n", cmp);//-5 具有不确定性 --> 内存对齐知识
     cmp = memcmp(stu.name, stu3.name, sizeof(Stu));
     printf("struct %d \n", cmp); // windows mingw -> -1  linux gcc 32
     cmp = memcmp(stu.name, stu4.name, sizeof(Stu));
@@ -88,7 +90,7 @@ int main() {
     cmp = memcmp(&"abC", &"abc", sizeof(char *));
     printf("%d\n", cmp);//-32
     printf("a -> %d;A -> %d \n", 'a', 'A');//a -> 97;A -> 65
-    printf("z -> %d;a -> %d \n", 'z', 'a');//a -> 97;A -> 65
+    printf("z -> %d;a -> %d \n", 'z', 'a');//z -> 122;a -> 97
     return 0;
 }
 ```
@@ -97,3 +99,5 @@ int main() {
 - <http://zh.cppreference.com/w/c/string/byte/memcmp>
 - <http://www.cplusplus.com/reference/cstring/memcmp/> 
 - <http://www.runoob.com/cprogramming/c-function-memcmp.html>
+
+### *转载注明出处*

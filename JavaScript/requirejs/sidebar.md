@@ -24,6 +24,7 @@
             - [memchr](c/string/memchr.md)
             - [memcmp](c/string/memcmp.md)
             - [memcpy](c/string/memcpy.md)
+            - [memmove](c/string/memmove.md)
 
 - PHP
     - [function](php/function)

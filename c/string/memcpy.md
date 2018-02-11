@@ -25,14 +25,14 @@ void * memcpy ( void * destination, const void * source, size_t num );
 - 指向要复制的数据源，类型强制转换为 void* 指针。
 
 ### num
-- Number of bytes to copy.
+- Number of bytes to copy.size_t is an unsigned integral type.
 - 指向复制来源对象的指针
-- size_t is an unsigned integral type.
 
 ## Return Value
 - destination is returned.
 - 复制的字节数
 
+## Example
 ```c
 //
 // Created by zhangrongxiang on 2018/2/9 10:32
@@ -96,3 +96,5 @@ int main() {
 - <http://www.cplusplus.com/reference/cstring/memcpy/>
 - <http://zh.cppreference.com/w/c/string/byte/memcpy>
 - <http://www.runoob.com/cprogramming/c-function-memcpy.html>
+
+### *转载注明出处*
