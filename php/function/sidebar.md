@@ -41,6 +41,9 @@
             - [mb_stripos](php/function/mb_string/mb_stripos.md)
             - [mb_strrpos](php/function/mb_string/mb_strrpos.md)
             - [mb_strripos](php/function/mb_string/mb_strripos.md)
+        - [string](php/function/string/index.md)
+            - [addcslashes](php/function/string/addcslashes.md)
+            - [addslashes](php/function/string/addslashes.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
