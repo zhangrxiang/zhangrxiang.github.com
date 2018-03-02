@@ -25,6 +25,8 @@
             - [memcmp](c/string/memcmp.md)
             - [memcpy](c/string/memcpy.md)
             - [memmove](c/string/memmove.md)
+        - [sqlite3](c/sqlite3/index.md)
+            - [sqlite3-ARUD](c/sqlite3/arud.md)
 
 - PHP
     - [function](php/function)
