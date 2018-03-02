@@ -46,6 +46,8 @@
         - [string](php/function/string/index.md)
             - [addcslashes](php/function/string/addcslashes.md)
             - [addslashes](php/function/string/addslashes.md)
+            - [chr](php/function/string/chr.md)
+            - [ord](php/function/string/ord.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
