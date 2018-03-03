@@ -48,6 +48,8 @@
             - [addslashes](php/function/string/addslashes.md)
             - [chr](php/function/string/chr.md)
             - [ord](php/function/string/ord.md)
+            - [explode](php/function/string/explode.md)
+            - [implode](php/function/string/implode.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
