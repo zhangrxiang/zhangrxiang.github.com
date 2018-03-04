@@ -50,10 +50,14 @@
             - [ord](php/function/string/ord.md)
             - [explode](php/function/string/explode.md)
             - [implode](php/function/string/implode.md)
+            - [trim](php/function/string/trim.md)
+            - [ltrim](php/function/string/ltrim.md)
+            - [rtrim](php/function/string/rtrim.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
     - [socket](wiki/socket.md)            
+    - [character coding](wiki/character-coding.md)            
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)       
     - [md](JavaScript/md.md)
