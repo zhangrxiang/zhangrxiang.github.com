@@ -58,6 +58,7 @@
     - [session](wiki/session.md)            
     - [socket](wiki/socket.md)            
     - [character coding](wiki/character-coding.md)            
+    - [bubble sort](wiki/bubble-sort.md)            
 - JavaScript
     - [requirejs](JavaScript/requirejs/requirejs.md)       
     - [md](JavaScript/md.md)
