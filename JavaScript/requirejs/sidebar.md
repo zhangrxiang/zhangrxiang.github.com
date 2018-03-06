@@ -5,6 +5,7 @@
 
 - Linux
     - [linux](linux/linux.md)
+        - [commond](linux/commond/index.md)
 - C
     - [c](c/c.md)
         - [thread](c/thread/.md)
