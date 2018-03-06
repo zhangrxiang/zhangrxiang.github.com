@@ -58,6 +58,8 @@
             - [trim](php/function/string/trim.md)
             - [ltrim](php/function/string/ltrim.md)
             - [rtrim](php/function/string/rtrim.md)
+            - [str_pad](php/function/string/str_pad.md)
+            - [str_repeat](php/function/string/str_repeat.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
