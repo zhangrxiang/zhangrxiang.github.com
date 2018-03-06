@@ -26,8 +26,10 @@
             - [memcpy](c/string/memcpy.md)
             - [memmove](c/string/memmove.md)
         - [sqlite3](c/sqlite3/index.md)
-            - [sqlite3-ARUD](c/sqlite3/arud.md)
+            - [sqlite3-ARUD](c/sqlite3/crud.md)
         - [mysql](c/mysql/index.md)
+            - [general-outline](c/mysql/general-outline.md)
+            - [crud](c/mysql/crud.md)
         
 
 - PHP
