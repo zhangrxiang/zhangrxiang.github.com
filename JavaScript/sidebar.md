@@ -62,6 +62,8 @@
             - [rtrim](php/function/string/rtrim.md)
             - [str_pad](php/function/string/str_pad.md)
             - [str_repeat](php/function/string/str_repeat.md)
+            - [str_shuffle](php/function/string/str_shuffle.md)
+            - [str_split](php/function/string/str_split.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
