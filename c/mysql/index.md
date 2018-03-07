@@ -91,12 +91,14 @@ my_init()
 
 mysql_affected_rows()
 //Returns the number of rows changed/deleted/inserted by the last UPDATE, DELETE, or INSERT query
+//返回被最新的UPDATE, DELETE或INSERT查询影响的行数。
 
 mysql_autocommit()
 //Toggles autocommit mode on/off
 
 mysql_change_user()
 //Changes user and database on an open connection
+//改变在一个打开的连接上的用户和数据库。
 
 mysql_character_set_name()
 // Return default character set name for current connection
@@ -109,84 +111,105 @@ mysql_client_register_plugin()
 
 mysql_close()
 // Closes a server connection
+//关闭一个服务器连接。
 
 mysql_commit()
 // Commits the transaction
 
 mysql_connect()
 // Connects to a MySQL server (this function is deprecated; use mysql_real_connect() instead)
+//连接一个MySQL服务器。该函数不推荐；使用mysql_real_connect()代替。
 
 mysql_create_db()
 // Creates a database (this function is deprecated; use the SQL statement CREATE DATABASE instead)
-
+// 创建一个数据库。该函数不推荐；而使用SQL命令CREATE DATABASE。
 mysql_data_seek()
 // Seeks to an arbitrary row number in a query result set
+//在一个查询结果集合中搜寻一任意行。
 
 mysql_debug()
 // Does a DBUG_PUSH with the given string
+//用给定字符串做一个DBUG_PUSH。
 
 mysql_drop_db()
 // Drops a database (this function is deprecated; use the SQL statement DROP DATABASE instead)
+//抛弃一个数据库。该函数不推荐；而使用SQL命令DROP DATABASE。
 
 mysql_dump_debug_info()
 // Makes the server write debug information to the log
-
+//让服务器将调试信息写入日志文件。
 mysql_eof()
 // Determines whether the last row of a result set has been read (this function is deprecated; mysql_errno() or mysql_error() may be used instead)
+//确定是否已经读到一个结果集合的最后一行。这功能被反对; mysql_errno()或mysql_error()可以相反被使用。
 
 mysql_errno()
 // Returns the error number for the most recently invoked MySQL function
+//返回最近被调用的MySQL函数的出错编号。
 
 mysql_error()
 // Returns the error message for the most recently invoked MySQL function
+//返回最近被调用的MySQL函数的出错消息。
 
 mysql_escape_string()
 // Escapes special characters in a string for use in an SQL statement
+//用在SQL语句中的字符串的转义特殊字符。
 
 mysql_fetch_field()
 // Returns the type of the next table field
+//返回下一个表字段的类型。
 
 mysql_fetch_field_direct() 
 //Returns the type of a table field, given a field number
+//返回一个表字段的类型，给出一个字段编号。
 
 mysql_fetch_fields()
 // Returns an array of all field structures
+//返回一个所有字段结构的数组。
 
 mysql_fetch_lengths()
 // Returns the lengths of all columns in the current row
+// /返回当前行中所有列的长度。
 
 mysql_fetch_row()
 // Fetches the next row from the result set
+//从结果集合中取得下一行。
 
 mysql_field_count()
 // Returns the number of result columns for the most recent statement
+//返回最近查询的结果列的数量。
 
 mysql_field_seek()
 // Puts the column cursor on a specified column
+//把列光标放在一个指定的列上。
 
 mysql_field_tell()
 // Returns the position of the field cursor used for the last mysql_fetch_field()
+//返回用于最后一个mysql_fetch_field()的字段光标的位置。
 
 mysql_free_result()
 // Frees memory used by a result set
-
+// /释放一个结果集合使用的内存。
 mysql_get_character_set_info()
 // Return information about default character set
 
 mysql_get_client_info()
 // Returns client version information as a string
+//返回客户版本信息。
 
 mysql_get_client_version()
 // Returns client version information as an integer
 
 mysql_get_host_info()
 // Returns a string describing the connection
+//返回一个描述连接的字符串。
 
 mysql_get_proto_info()
 // Returns the protocol version used by the connection
+//返回连接使用的协议版本。
 
 mysql_get_server_info()
 // Returns the server version number
+//返回服务器版本号。
 
 mysql_get_server_version()
 // Returns version number of server as an integer
@@ -199,15 +222,19 @@ mysql_hex_string()
 
 mysql_info()
 // Returns information about the most recently executed query
+//返回关于最近执行得查询的信息。
 
 mysql_init()
 // Gets or initializes a MYSQL structure
+//获得或初始化一个MYSQL结构。
 
 mysql_insert_id()
 // Returns the ID generated for an AUTO_INCREMENT column by the previous query
+//返回有前一个查询为一个AUTO_INCREMENT列生成的ID。
 
 mysql_kill()
 // Kills a given thread
+//杀死一个给定的线程。
 
 mysql_library_end()
 // Finalize the MySQL C API library
@@ -217,15 +244,19 @@ mysql_library_init()
 
 mysql_list_dbs()
 // Returns database names matching a simple regular expression
+//返回匹配一个简单的正则表达式的数据库名。
 
 mysql_list_fields()
 // Returns field names matching a simple regular expression
+//返回匹配一个简单的正则表达式的列名。
 
 mysql_list_processes()
 // Returns a list of the current server threads
+//返回当前服务器线程的一张表。
 
 mysql_list_tables()
 // Returns table names matching a simple regular expression
+//返回匹配一个简单的正则表达式的表名。
 
 mysql_load_plugin()
 // Load a plugin
@@ -241,51 +272,59 @@ mysql_next_result()
 
 mysql_num_fields()
 // Returns the number of columns in a result set
+//返回一个结果集合重的列的数量。
 
 mysql_num_rows()
 // Returns the number of rows in a result set
+//返回一个结果集合中的行的数量。
 
 mysql_options()
 // Sets connect options for mysql_real_connect()
-
-mysql_options4()
-// Sets connect options for mysql_real_connect()
+//设置对mysql_connect()的连接选项。
 
 mysql_ping() Checks
 // whether the connection to the server is working, reconnecting as necessary
+//检查对服务器的连接是否正在工作，必要时重新连接。
 
 mysql_plugin_options()
 // Set a plugin option
 
 mysql_query()
 // Executes an SQL query specified as a null-terminated string
+//执行指定为一个空结尾的字符串的SQL查询。
 
 mysql_real_connect()
 // Connects to a MySQL server
+// 连接一个MySQL服务器。
 
 mysql_real_escape_string()
 // Escapes special characters in a string for use in an SQL statement, taking into account the current character set of the connection
 
 mysql_real_query()
 // Executes an SQL query specified as a counted string
+//执行指定为带计数的字符串的SQL查询。
 
 mysql_refresh()
 // Flush or reset tables and caches
 
 mysql_reload()
 // Tells the server to reload the grant tables
+//告诉服务器重装授权表。
 
 mysql_rollback() 
 //Rolls back the transaction
 
 mysql_row_seek()
 // Seeks to a row offset in a result set, using value returned from mysql_row_tell()
+//搜索在结果集合中的行，使用从mysql_row_tell()返回的值。
 
 mysql_row_tell()
 // Returns the row cursor position
+//返回行光标位置。
 
 mysql_select_db()
 // Selects a database
+//连接一个数据库。
 
 mysql_server_end()
 // Finalize the MySQL C API library
@@ -310,21 +349,25 @@ mysql_sqlstate()
 
 mysql_shutdown()
 // Shuts down the database server
+//关掉数据库服务器。
 
 mysql_ssl_set()
 // Prepare to establish SSL connection to server
 
 mysql_stat()
 // Returns the server status as a string
+//返回作为字符串的服务器状态。
 
 mysql_store_result()
 // Retrieves a complete result set to the client
+//检索一个完整的结果集合给客户。
 
 mysql_thread_end()
 // Finalize thread handler
 
 mysql_thread_id()
 // Returns the current thread ID
+//返回当前线程的ID。
 
 mysql_thread_init()
 // Initialize thread handler
@@ -334,6 +377,7 @@ mysql_thread_safe()
 
 mysql_use_result()
 // Initiates a row-by-row result set retrieval
+//初始化一个一行一行地结果集合的检索。
 
 mysql_warning_count()
 // Returns the warning count for the previous SQL statement

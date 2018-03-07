@@ -1,5 +1,7 @@
 # CRUD
 
+## table
+
 ```sql
 create table if not exists `student` (
     `id` int auto_increment,
@@ -9,6 +11,9 @@ create table if not exists `student` (
     primary key (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
+## code
+
 ```c
 //
 // Created by zhangrongxiang on 2018/3/5 14:56
