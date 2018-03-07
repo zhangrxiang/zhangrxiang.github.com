@@ -31,7 +31,9 @@
         - [mysql](c/mysql/index.md)
             - [general-outline](c/mysql/general-outline.md)
             - [crud](c/mysql/crud.md)
-        
+        - [redis](c/redis/index.md)        
+            - [api](c/redis/api.md)                
+            - [string](c/redis/string.md)        
 
 - PHP
     - [function](php/function)
