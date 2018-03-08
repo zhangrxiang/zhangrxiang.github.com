@@ -6,6 +6,8 @@
 - Linux
     - [linux](linux/linux.md)
         - [commond](linux/commond/index.md)
+            - [tail](linux/commond/tail.md)
+            - [tr](linux/commond/tr.md)
 - C
     - [c](c/c.md)
         - [thread](c/thread/.md)
@@ -64,6 +66,8 @@
             - [str_repeat](php/function/string/str_repeat.md)
             - [str_shuffle](php/function/string/str_shuffle.md)
             - [str_split](php/function/string/str_split.md)
+- sql
+    - [mysql](sql/mysql/mysql.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
