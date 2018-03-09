@@ -8,6 +8,8 @@
         - [commond](linux/commond/index.md)
             - [tail](linux/commond/tail.md)
             - [tr](linux/commond/tr.md)
+            - [sed](linux/commond/sed.md)
+            - [sed2](linux/commond/sed2.md)
 - C
     - [c](c/c.md)
         - [thread](c/thread/.md)
