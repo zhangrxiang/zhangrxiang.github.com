@@ -373,4 +373,30 @@ Insert text
 # 4) The Fellowship of the Ring, J. R. R. Tolkien, 432 
 # 5) The Pilgrimage, Paulo Coelho, 288 
 # 6) A Game of Thrones, George R. R. Martin, 864
+# 在第四行前插入新的一行
+sed '4 i 7) Adultry, Paulo Coelho, 324' books.txt
+```
+
+##### 转换命令 `y`
+> 转换（Translate）命令 y 是唯一可以处理单个字符的sed编辑器命令。
+
+```bash
+[address]y/inchars/outchars/
+```
+转换命令会对`inchars`和`outchars`值进行一对一的映射。`inchars`中的第一个字符会被转换为`outchars`中的第一个字符，第二个字符会被转换成`outchars`中的第二个字符。这个映射过程会一直持续到处理完指定字符。如果`inchars`和`outchars`的长度不同，则sed编辑器会产生一条错误消息。
+```bash
+# I V IV XX
+echo "1 5 15 20" | sed 'y/151520/IVXVXX/'
+```
+
+##### 输出隐藏字符命令 `l`
+```
+[address1[,address2]]l 
+[address1[,address2]]l [len]
+```
+```bash
+sed 's/ /\t/g' books.txt > junk.txt
+sed -n 'l' junk.txt
+# 本按照指定的宽度换行
+sed -n 'l 25' books.txt
 ```
