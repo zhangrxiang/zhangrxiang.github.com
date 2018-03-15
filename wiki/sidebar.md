@@ -68,6 +68,8 @@
             - [str_repeat](php/function/string/str_repeat.md)
             - [str_shuffle](php/function/string/str_shuffle.md)
             - [str_split](php/function/string/str_split.md)
+            - [wordwrap](php/function/string/wordwrap.md)
+            - [str_word_count](php/function/string/str_word_count.md)
 - sql
     - [mysql](sql/mysql/mysql.md)
 - wiki
