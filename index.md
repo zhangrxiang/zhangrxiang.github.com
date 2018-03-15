@@ -1,5 +1,3 @@
-
-- [个人简历](myself/wx_resume.md)
 - [博客园 - https://zhangrxiang.cnblogs.com/](https://zhangrxiang.cnblogs.com/)
 
 - [devdocs - https://devdocs.io/](https://devdocs.io/)
