@@ -6,6 +6,9 @@
 - Interview
     - [cpp](interview/cpp.md)
     - [cpp-cal](interview/cpp-cal.md)
+    - [php](interview/php.md)
+    - [php-cal](interview/php-cal.md)
+    - [server](interview/server.md)
 - Linux
     - [linux](linux/linux.md)
         - [commond](linux/commond/index.md)
