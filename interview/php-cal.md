@@ -96,3 +96,41 @@ function getHeader(){
     var_dump($headers);
 }
 ```
+
+### 打印出前一天的时间格式是2009-02-10 22:21:21
+```php
+//1
+echo date('Y-m-d H:i:s', strtotime('-1 day'));
+//2
+$yesterday = time() - (24 * 60 * 60);
+echo 'today:'.date('Y-m-d H:i:s')."n";
+echo 'yesterday:'. date('Y-m-d H:i:s', $yesterday)."n";
+```
+
+### 使用五种以上方式获取一个文件的扩展名
+```php
+get_ext1($file_name)
+{    return strrchr($file_name, '.');}
+
+get_ext2($file_name)
+{    return substr($file_name, strrpos($file_name, '.'));}
+
+get_ext3($file_name)
+{    return array_pop(explode('.', $file_name));}
+
+get_ext4($file_name)
+{   $p = pathinfo($file_name);return $p['extension'];}
+
+get_ext5($file_name)
+{    return strrev(substr(strrev($file_name), 0, strpos(strrev($file_name), '.')));}
+```
+
+### 简述如何得到当前执行脚本路径，包括所得到参数。
+访问http://temp.com/phpinfo.php?id=1
+```php
+echo $_SERVER['SCRIPT_URL']; //得到/phpinfo.php
+echo $_SERVER["SCRIPT_URI"]; //得到http://temp.com/phpinfo.php
+echo $_SERVER["SCRIPT_FILENAME"]; //得到F:/www/Temp/phpinfo.php
+echo $_SERVER["REQUEST_URI"]; //得到/phpinfo.php?id=1
+echo $_SERVER["SCRIPT_NAME"]; //得到/phpinfo.php
+```

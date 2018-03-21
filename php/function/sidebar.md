@@ -7,6 +7,7 @@
     - [cpp](interview/cpp.md)
     - [cpp-cal](interview/cpp-cal.md)
     - [php](interview/php.md)
+    - [php2](interview/php2.md)
     - [php-cal](interview/php-cal.md)
     - [server](interview/server.md)
 - Linux
