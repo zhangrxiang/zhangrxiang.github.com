@@ -19,6 +19,7 @@
             - [sed2](linux/commond/sed2.md)
 - C
     - [c](c/c.md)
+        - [constant](c/const.md)
         - [thread](c/thread/.md)
             - [summary](c/thread/summary.md)
         - [ctype](c/ctype/index.md)    
