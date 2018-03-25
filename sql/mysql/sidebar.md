@@ -79,6 +79,7 @@
             - [str_word_count](php/function/string/str_word_count.md)
 - sql
     - [mysql](sql/mysql/mysql.md)
+        - [mysql](sql/mysql/mysql2.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
