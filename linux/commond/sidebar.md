@@ -80,6 +80,7 @@
 - sql
     - [mysql](sql/mysql/mysql.md)
         - [mysql](sql/mysql/mysql2.md)
+        - [mysql-optimization](sql/mysql/mysql-optimization.md)
 - wiki
     - [cookies](wiki/cookies.md)            
     - [session](wiki/session.md)            
