@@ -48,6 +48,7 @@
             - [string](c/redis/string.md)        
 
 - PHP
+    - [class](php/class.md)
     - [function](php/function)
         - [mb_string](php/function/mb_string)
             - [mb_internal_encoding](php/function/mb_string/mb_internal_encoding.md)
